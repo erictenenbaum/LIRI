@@ -11,17 +11,12 @@ var client = new Twitter({
   access_token_secret: keys.twitter.access_token_secret
 });
 
-
-
 var spotify = new Spotify({
-  id: "710dab09368441fdbe377ef7f0c91114",
-  secret: "c0b18dc146574064919c595d5a513a2d"
+  id: keys.spotify.id,
+  secret: keys.spotify.secret
 });
 
 var userCommand = process.argv[2]
-
-
-
 
 switch (userCommand) {
   case 'my-tweets':
@@ -45,8 +40,10 @@ switch (userCommand) {
 
 function getTweets() {
   console.log("tweets running");
+
+  let searchString = process.argv[3];
   
-  var params = { screen_name: 'timheidecker' };
+  var params = { screen_name: searchString };
   client.get('statuses/user_timeline', params, function (error, tweets, response) {
     console.log(error)
     if (!error) {
@@ -63,7 +60,7 @@ function getTweets() {
 
 function querySpotify() {
 
-    var searchString = process.argv[3]
+    let searchString = process.argv[3]
 
     spotify.search({ type: 'track', query: searchString }, function(err, data) {
   if (err) {
