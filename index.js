@@ -63,7 +63,9 @@ function getTweets() {
 
 function querySpotify() {
 
-    spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+    var searchString = process.argv[3]
+
+    spotify.search({ type: 'track', query: searchString }, function(err, data) {
   if (err) {
     return console.log('Error occurred: ' + err);
   }
