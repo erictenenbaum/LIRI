@@ -106,7 +106,10 @@ function userChoice(caseType) {
 
         case 'clear-log':
             logTransfer()
+             setTimeout(function() {
             clearLog("log.txt")
+            }, 3000);
+            // clearLog("log.txt")
             break;
 
         case 'clear-master':
@@ -283,11 +286,15 @@ function logTransfer() {
 
 
     });
+    // setTimeout(function() {
+    //     clearLog("log.txt")
+    // }, 3000);
+    
 }
 
 function clearLog(log) {
 
-    logTransfer();
+    // logTransfer();
 
     fs.writeFile(log, log + " Cleared at " + new Date(), function(err) {
 
@@ -310,8 +317,8 @@ function clearLog(log) {
 function clearMaster() {
     yesno.ask('This cannot be undone. Are you sure you want to continue?', true, function(ok) {
         if (ok) {
-            logTransfer();
-            clearLog("masterFile.txt");
+            // logTransfer();
+            clearLog("masterFile.txt");          
 
 
         } else {
