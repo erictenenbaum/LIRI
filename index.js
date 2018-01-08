@@ -106,8 +106,8 @@ function userChoice(caseType) {
 
         case 'clear-log':
             logTransfer()
-             setTimeout(function() {
-            clearLog("log.txt")
+            setTimeout(function() {
+                clearLog("log.txt")
             }, 3000);
             // clearLog("log.txt")
             break;
@@ -286,10 +286,7 @@ function logTransfer() {
 
 
     });
-    // setTimeout(function() {
-    //     clearLog("log.txt")
-    // }, 3000);
-    
+
 }
 
 function clearLog(log) {
@@ -318,7 +315,7 @@ function clearMaster() {
     yesno.ask('This cannot be undone. Are you sure you want to continue?', true, function(ok) {
         if (ok) {
             // logTransfer();
-            clearLog("masterFile.txt");          
+            clearLog("masterFile.txt");
 
 
         } else {
