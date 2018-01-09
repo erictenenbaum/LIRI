@@ -39,7 +39,7 @@ function getSearchString(checkFirst, param2) {
                 break;
 
             case "movie-this":
-                movie(param2);
+                movie(checkFirst);
                 break;
 
             default:
@@ -108,8 +108,8 @@ function userChoice(caseType) {
             logTransfer()
             setTimeout(function() {
                 clearLog("log.txt")
-            }, 3000);
-            // clearLog("log.txt")
+            }, 3000);      
+                 
             break;
 
         case 'clear-master':
@@ -208,9 +208,13 @@ function movie(movieSearch) {
 
     var queryUrl = "http://www.omdbapi.com/?t=" + movieSearch + "&y=&plot=short&apikey=trilogy"
 
+    console.log(queryUrl);
+
     request(queryUrl, function(error, response, body) {
         if (!error && response.statusCode === 200) {
             var movieObj = JSON.parse(body);
+
+
 
             // Since an object was returned, I didn't need to push to an empty array
             // Instead I could create my array and add the key value pairs I needed
@@ -268,13 +272,13 @@ function logTransfer() {
 
 
         // Then split it by commas (to make it more readable)
-        var dataArr = data.split("\n");
+        // var dataArr = data.split("\n");
 
         // We will then re-display the content as an array for later use.
         // console.log(dataArr);
 
-        for (var x = 0; x < dataArr.length; x++) {
-            fs.appendFile("masterFile.txt", dataArr[x] + "\n", function(err) {
+        // for (var x = 0; x < dataArr.length; x++) {
+            fs.appendFile("masterFile.txt", data + "\n", function(err) {
 
                 // If the code experiences any errors it will log the error to the console.
                 if (err) {
@@ -282,7 +286,7 @@ function logTransfer() {
                 }
             });
 
-        }
+        // }
 
 
     });
