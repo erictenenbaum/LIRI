@@ -106,9 +106,10 @@ function userChoice(caseType) {
 
         case 'clear-log':
             logTransfer()
-            setTimeout(function() {
-                clearLog("log.txt")
-            }, 3000);      
+            
+            // setTimeout(function() {
+            //     clearLog("log.txt")
+            // }, 3000);      
                  
             break;
 
@@ -287,7 +288,7 @@ function logTransfer() {
             });
 
         // }
-
+        clearLog("log.txt");
 
     });
 
