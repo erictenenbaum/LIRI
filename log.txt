@@ -1,1 +1,57 @@
-log.txt Cleared at Mon Jan 08 2018 21:48:56 GMT-0700 (US Mountain Standard Time)
+log.txt Cleared at Mon Jan 08 2018 21:48:56 GMT-0700 (US Mountain Standard Time)==============================
+Created At: Wed Jan 17 03:45:49 +0000 2018
+Tweet: RT @nodejs: 🚀 We launched our #nodejs application showcase, which lists a variety of projects and products built with Node.js More on the s…
+Created At: Wed Jan 17 03:45:45 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @simona_cotin: A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+https://t.co/81jqRnG…
+==============================
+Created At: Wed Jan 17 03:45:40 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @mhdawson1: I'm excited to be heading out to #IndexConf next month in SF to talk about #nodejs.  Hope to see you there.  For more info c…
+==============================
+Created At: Wed Jan 17 03:44:41 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: STAR-FANIA https://t.co/o6gU2jGo8D
+==============================
+Created At: Wed Jan 17 03:44:33 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: Romo just called Brady "the greatest to ever play the game." Obviously a lot of ppl have that opinion (me included) bu…
+==============================
+Created At: Wed Jan 17 03:44:15 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: Weird to not kick the FG there. Hindsight 20/20 of course but Jags suddenly have some momentum after it's been all PIT…
+==============================
+Created At: Wed Jan 17 03:44:05 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: As I was saying. https://t.co/S1D6ZbdkjC
+==============================
+Created At: Wed Jan 17 03:43:54 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: Do you believe in miracles?
+==============================
+Created At: Wed Jan 17 03:43:48 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: I can not get enough Jeff Fisher inspired stats. https://t.co/ji7f6L6R6L
+==============================
+Created At: Wed Jan 17 03:43:45 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: ICYMI - just wanna give props to @FieldYates here on breaking a big story. Well done. https://t.co/DtzEQ0Nv7c
+==============================
+Created At: Wed Jan 17 03:43:38 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @MatthewBerryTMR: Congrats @wojespn!! https://t.co/ZrAkttf2W1
+==============================
+Created At: Wed Jan 17 03:42:15 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @kobebryant: #16 https://t.co/7xS5IKVrWl
+==============================
+Created At: Wed Jan 17 03:42:11 +0000 2018
+User: Eric Tenenbaum
+==============================
+Tweet: RT @kobebryant: Have you seen #DearBasketball yet? Let me know what you think below and check out the #BTS documentary! https://t.co/a8J68A…
+==============================
+Created At: Wed Jan 17 03:42:07 +0000 2018
+User: Eric Tenenbaum
+Tweet: RT @kobebryant: "Detail" - my new show from Granity Studios - hits ESPN in March.  Viewers can expect to learn how the pros better their be…
+User: Eric Tenenbaum

@@ -76,7 +76,7 @@ function userChoice(caseType) {
     switch (caseType) {
         case 'my-tweets':
             if (process.argv[3] === undefined) {
-                getTweets("realdonaldtrump");
+                getTweets("eric10enbaum");
             } else {
                 getTweets(getSearchString());
             }
